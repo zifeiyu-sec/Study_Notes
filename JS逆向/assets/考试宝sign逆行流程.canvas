@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"1c0dfa75cf0d7ad2","type":"text","text":"sign","x":388,"y":-600,"width":117,"height":56},
+		{"id":"000c986f4ba751bd","x":558,"y":-480,"width":250,"height":60,"type":"text","text":"通过路径断点，定位到sign"},
+		{"id":"0775011aae1b1e9b","type":"text","text":"\\bsign =  (正则搜索)","x":119,"y":-480,"width":250,"height":60},
+		{"id":"cc0d565a8f77f6dc","type":"text","text":"定位到t.headers.sign=h","x":322,"y":-360,"width":250,"height":60},
+		{"id":"7ac657e61936516f","type":"text","text":"查看h的值","x":322,"y":-240,"width":250,"height":60},
+		{"id":"76bc9ea9ff6472a7","type":"text","text":"写一个py生成sign","x":1048,"y":-240,"width":250,"height":60},
+		{"id":"830ed68320c07d2c","type":"text","text":"通过ws()函数，有四个参数，","x":679,"y":-233,"width":250,"height":60},
+		{"id":"70d69099acbd825e","type":"text","text":"参数有一个固定的值，一个时间戳，一个路径替换值，一个cookie中uu的值","x":677,"y":-114,"width":250,"height":60},
+		{"id":"2b3ac14711af2ab8","type":"text","text":"因为涉及时间戳，使用py生成sign，然后直接请求网址，并接收数据。","x":1045,"y":-36,"width":250,"height":60},
+		{"id":"124f1f4d221c3196","type":"text","text":"通过ws()函数处理，ws是md5算法","x":683,"y":43,"width":250,"height":60},
+		{"id":"25e32764f1ef2622","type":"text","text":"请求中不能忘记载荷{paperid: \"23151209\", type: \"all\", size: 10, page: 1}","x":1045,"y":94,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"967c15f5ed376072","fromNode":"1c0dfa75cf0d7ad2","fromSide":"bottom","toNode":"0775011aae1b1e9b","toSide":"top"},
+		{"id":"642ad3a1c40d1cca","fromNode":"0775011aae1b1e9b","fromSide":"bottom","toNode":"cc0d565a8f77f6dc","toSide":"top"},
+		{"id":"bb10155b4259fcef","fromNode":"cc0d565a8f77f6dc","fromSide":"bottom","toNode":"7ac657e61936516f","toSide":"top"},
+		{"id":"3d80f84a2d9e8b92","fromNode":"7ac657e61936516f","fromSide":"right","toNode":"830ed68320c07d2c","toSide":"left"},
+		{"id":"557836b2dcd9da4d","fromNode":"830ed68320c07d2c","fromSide":"bottom","toNode":"70d69099acbd825e","toSide":"top"},
+		{"id":"726a2931371911e1","fromNode":"70d69099acbd825e","fromSide":"bottom","toNode":"124f1f4d221c3196","toSide":"top"},
+		{"id":"743cdee8b7df5c80","fromNode":"124f1f4d221c3196","fromSide":"right","toNode":"76bc9ea9ff6472a7","toSide":"left"},
+		{"id":"adcb30d637c9ab9d","fromNode":"76bc9ea9ff6472a7","fromSide":"bottom","toNode":"2b3ac14711af2ab8","toSide":"top"},
+		{"id":"856490c2132086af","fromNode":"2b3ac14711af2ab8","fromSide":"bottom","toNode":"25e32764f1ef2622","toSide":"top"},
+		{"id":"328c0e87a566ed8d","fromNode":"1c0dfa75cf0d7ad2","fromSide":"bottom","toNode":"000c986f4ba751bd","toSide":"top"},
+		{"id":"643389cfe1b70e94","fromNode":"000c986f4ba751bd","fromSide":"bottom","toNode":"cc0d565a8f77f6dc","toSide":"top"}
+	]
+}

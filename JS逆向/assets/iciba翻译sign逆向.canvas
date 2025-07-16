@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"2551150f6506cffa","type":"text","text":"字符串拼接","x":-343,"y":-95,"width":250,"height":60},
+		{"id":"c1500b7dc85d2d51","type":"text","text":"一段字符串，w.Li值固定，需要翻译的值","x":25,"y":-95,"width":250,"height":60},
+		{"id":"2969cb6b262c960e","type":"text","text":"通过m()函数处理，猜测使用md5，然后取其16位","x":414,"y":-95,"width":250,"height":60},
+		{"id":"0453b01098923773","type":"text","text":"x.$Q使用AES加密","x":414,"y":120,"width":250,"height":60},
+		{"id":"6ad166c7c6f2d716","type":"text","text":"固定密钥，被加密的值是上一步md5得来的，模式ECB","x":-49,"y":137,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"0d08c113174f597f","fromNode":"2551150f6506cffa","fromSide":"right","toNode":"c1500b7dc85d2d51","toSide":"left"},
+		{"id":"1e7dfbb98060bac5","fromNode":"c1500b7dc85d2d51","fromSide":"right","toNode":"2969cb6b262c960e","toSide":"left"},
+		{"id":"77c0abf623a5ed59","fromNode":"2969cb6b262c960e","fromSide":"bottom","toNode":"0453b01098923773","toSide":"top"},
+		{"id":"1e2818df7b027686","fromNode":"0453b01098923773","fromSide":"bottom","toNode":"6ad166c7c6f2d716","toSide":"top"}
+	]
+}
