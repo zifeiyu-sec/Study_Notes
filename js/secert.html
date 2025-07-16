@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>RSA 加密测试</title>
+    <script src="./jquery-1.10.2.min.js"></script>
+    <script src="jsencrypt.min.js"></script>
+</head>
+
+<body>
+    
+    
+    <textarea id="Public_key" style="display:none;">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAynjrCVuQRQscFBs+f9MBN6HA7ES9E/elS8wyJspi/N0dBXPmimgtdvDV/QI4BkE4irvM0vMJIEZzQJ22TEimD0oi4e9aMF5u+82/oIFEaCuAkdpxuF9XWfC5HNFivRzdMaX80UOajOkx+8cVjaiaXxR9KFFkJwyHv88v0B08vJHaSpP7igSJAAon0htj43JwZSNDQWQNkkw18zISGKASIz9ZNik00CAWXNEnkOq7bLClcp4yH4gGz/USf0PJimTWjfDLNRhvdwn9YlZpjepQTPux3BWzhBu1pMB0QtZd1SKxLMsrMV9yn9TUIVllg1B8eE+f1fbyZfS+SwQAE6u+xQIDAQAB</textarea>
+   <!--  -->
+    <input type="text" id="txtPassword" value="111" />
+
+    <script>
+        var encrypt = new JSEncrypt();
+        encrypt.setPublicKey($("#Public_key").val());
+        var hidetxtPassword = encrypt.encrypt($("#txtPassword").val());
+        console.log("加密结果：", hidetxtPassword);
+    </script>
+</body>
+
+</html>
