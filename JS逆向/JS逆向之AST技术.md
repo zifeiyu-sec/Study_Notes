@@ -78,9 +78,11 @@ https://obfuscator.io/
 没混淆前的代码在浏览器控制台正常输出值
 混淆后也可以输出hello world。
 ![](images/Pasted%20image%2020250719234613.png)
-将其混淆加密后的数据在网站https://webcrack.netlify.app/进行自动解密
+将其混淆加密后的数据在网站`https://webcrack.netlify.app/`进行自动解密
 **![](images/Pasted%20image%2020250720162706.png)
-或者在网址https://deli-c1ous.github.io/javascript-deobfuscator/也可以还原
+或者在网址
+https://deli-c1ous.github.io/javascript-deobfuscator/
+也可以还原
 ![](images/Pasted%20image%2020250720162828.png)
 也可以尝试用结合ai进行还原
 
@@ -141,4 +143,9 @@ flowchart TD
     M --> N
     N --> O[可读性强的 JS 代码]
 ```
+
+在线工具
+- https://www.kitboxpro.com/tools/js-reverse
+- https://deli-c1ous.github.io/javascript-deobfuscator/
+- https://webcrack.netlify.app/
 
