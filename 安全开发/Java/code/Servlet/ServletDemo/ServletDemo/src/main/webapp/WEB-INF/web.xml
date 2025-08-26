@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+<!--    <servlet>-->
+<!--            <servlet-name>ServletDemo</servlet-name>-->
+<!--            <servlet-class>com.example.servletdemo.ServletDemo</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ServletDemo</servlet-name>-->
+<!--        <url-pattern>/demo</url-pattern>-->
+<!--    </servlet-mapping>-->
+
+
+<!--    <filter>-->
+<!--            <filter-name>xssFilterDemo</filter-name>-->
+<!--            <filter-class>com.example.FlterDeomo.XssFilterDemo</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>xssFilterDemo</filter-name>-->
+<!--        <url-pattern>/demo</url-pattern>-->
+<!--    </filter-mapping>-->
+
+</web-app>

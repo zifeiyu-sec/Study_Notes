@@ -1,0 +1,18 @@
+0 verbose cli C:\Soft\language\Node\node.exe C:\Soft\language\Node\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Soft\language\Node\node_modules\npm\npmrc
+4 silly config load:file:E:\Note\o_blog\Study_Notes\安全开发\Java\code\Servlet\ServletDemo\ServletDemo\.npmrc
+5 silly config load:file:C:\Users\14109\.npmrc
+6 silly config load:file:C:\Soft\language\Node\node_global\etc\npmrc
+7 verbose title npm config list
+8 verbose argv "config" "list" "--json"
+9 verbose logfile logs-max:10 dir:E:\Note\o_blog\Study_Notes\安全开发\Java\code\Servlet\ServletDemo\ServletDemo\npm config set cache\_logs\2025-08-19T14_54_53_714Z-
+10 verbose logfile E:\Note\o_blog\Study_Notes\安全开发\Java\code\Servlet\ServletDemo\ServletDemo\npm config set cache\_logs\2025-08-19T14_54_53_714Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd E:\Note\o_blog\Study_Notes\安全开发\Java\code\Servlet\ServletDemo\ServletDemo
+13 verbose os Windows_NT 10.0.26100
+14 verbose node v22.14.0
+15 verbose npm  v10.9.2
+16 verbose exit 0
+17 info ok
