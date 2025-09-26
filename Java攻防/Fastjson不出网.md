@@ -1,5 +1,9 @@
 # Fastjson不出网
 
+参考文章：https://xz.aliyun.com/news/11938
+
+​					https://github.com/safe6Sec/Fastjson
+
 当发现一个使用Fastjson反序列化漏洞的点，但目标服务器**无法访问公网（不出网）** 时，传统的“反弹Shell”或“下载执行”的利用方式会立即失效。
 
 核心思路要从“直接获取反向连接”转变为“在目标服务器内部执行操作”，并利用内部资源来达成目标。
